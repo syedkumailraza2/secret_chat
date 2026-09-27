@@ -3,4 +3,3 @@ __pycache__/
 *.py[cod]
 .env
 .pytest_cache/
-media/
