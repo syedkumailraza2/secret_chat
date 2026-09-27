@@ -1,24 +1,20 @@
-import 'dart:io' show Platform;
-import 'package:flutter/foundation.dart' show kIsWeb;
-
 class AppConstants {
   AppConstants._();
 
   /// Base URL of the FastAPI backend.
   ///
-  /// Override at build time:
-  ///   flutter run --dart-define=API_BASE_URL=http://192.168.1.5:8010
-  ///
-  /// The default resolves per-platform because "localhost" means different
-  /// things to a simulator, an emulator and a desktop build:
-  ///   - Android emulator reaches the host machine at 10.0.2.2
-  ///   - iOS simulator, web and desktop share the host's localhost
+  /// Defaults to the deployed backend on Render. Point at a local server at
+  /// build time instead:
+  ///   flutter run --dart-define=API_BASE_URL=http://127.0.0.1:8010
+  /// (the Android emulator reaches the host machine at http://10.0.2.2:8010).
   static String get apiBaseUrl {
     const override = String.fromEnvironment('API_BASE_URL');
     if (override.isNotEmpty) return override;
-    if (!kIsWeb && Platform.isAndroid) return 'http://10.0.2.2:8010';
-    return 'http://127.0.0.1:8010';
+    return productionApiBaseUrl;
   }
+
+  static const String productionApiBaseUrl =
+      'https://secret-chat-fyob.onrender.com';
 
   static const Duration requestTimeout = Duration(seconds: 30);
 

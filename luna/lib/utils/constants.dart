@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:material_symbols_icons/symbols.dart';
 
@@ -55,18 +54,12 @@ const irregularCycleDay = 45;
 
 const appVersion = '1.0.0';
 
-/// Base URL of the chat server (the NutriCook backend).
+/// Base URL of the chat server (the NutriCook backend deployed on Render).
 ///
-/// Override at build time:
-///   flutter run --dart-define=SECRET_CHAT_URL=http://192.168.1.5:8010
-///
-/// The Android emulator reaches the host machine at 10.0.2.2; the iOS
-/// simulator, web and desktop share the host's localhost.
+/// Point at a local server at build time instead:
+///   flutter run --dart-define=SECRET_CHAT_URL=http://127.0.0.1:8010
+/// (the Android emulator reaches the host machine at http://10.0.2.2:8010).
 String get secretChatBaseUrl {
   const override = String.fromEnvironment('SECRET_CHAT_URL');
-  if (override.isNotEmpty) return override;
-  if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android) {
-    return 'http://10.0.2.2:8010';
-  }
-  return 'http://127.0.0.1:8010';
+  return override.isNotEmpty ? override : 'https://secret-chat-fyob.onrender.com';
 }
