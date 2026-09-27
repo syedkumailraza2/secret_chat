@@ -1,0 +1,26 @@
+/// Photography from the onboarding designs.
+class OnboardingImages {
+  OnboardingImages._();
+
+  static const String welcome =
+      'https://lh3.googleusercontent.com/aida-public/AB6AXuDdmgOQDvfz3KQUdFTn3gx2i3NROmQ4KEqar_-AuX6VqQbZYgonhCkOe7S34KXcRyHwnVaiOQQ4GDuN2OWeDfoRFZ3T29Ph6f0inEqrKRALk165UstoOOhkJk1qI8judT7Oft2kc37-6NLXtHg3gE9LTvlNn0YY3yQmmNtD2NmQB25Ezy3B2Gw6jMCbKFylb99iqCgglwXEeeezG-1RVDphSNOgunQjTmVx710RYIIJD-o-jmDL_0QV';
+
+  static const String dietBg =
+      'https://lh3.googleusercontent.com/aida-public/AB6AXuCZBnAtTKqR4AieVwH4dbq52wakMX0GPpfDoJpGhvySvQQRJiJJa0lztiecIWAt5NVDvhaB8zSDc5TQbb0Q9kBr-nwWULWCd64oA_EdyjLWISjhWTQ77mSPf4YCxb63lsCLr9_LIPPJ1S71FOQRx8X08t-A9BMJ66sl6KR-eUCVSufTyQzFbSKbDAFHQ9PeBjh5hbWpKX75DXjrsva72S8wl18qPLe9M3ZOO_N-wPYEXl63D1au99qO';
+
+  static const String indian =
+      'https://lh3.googleusercontent.com/aida-public/AB6AXuCiU7XPnE4jWzTz2wY_I4I52qHBkcjbo0BugCFN5ASR8nUirg2oE9gZpbWHrxFPXHfC2zYhLMVynE4FN1r7pmhKvaZtTkXjIEZOlVe1jmW93r3ey76fOd__bExhH3ijxiotip7zkDZV9tmNtK3pxlMIaOJTyAh82i4xFCu4z9SNPdZPZTPKhVEq08tUDxH9zQBBgmiz3RdwnD-NXWYbP8G-tAJelJ-Kx59Rj3OVyrX9Wkz4E9fNMtFq';
+
+  static const String italian =
+      'https://lh3.googleusercontent.com/aida-public/AB6AXuBXiRExVNWLJd0DxYaK34A-RtDp7vcfMv4krl3rGNEo88MsuHRyXFBJOUBCjoUd3yASQTsY00wXlXTDCt-KSuR7pVTZXcfr-ZmNx2cdpWO9E0Lo5CqPmakr2-QdmHC2QUMj3cdrvMf1BAZSvZkIbYlCyYgV1huT2GInhL_ZpgwSIGnqL_-1t6x6YYS48haugjde_jnIq-zGaAhic49e2j0hnV70cNeDkrap0xhJLgAXbxK4QpVjzeoi';
+
+  static const String asian =
+      'https://lh3.googleusercontent.com/aida-public/AB6AXuBvJgvoGYrDeQRBinD6kDY11Z3r-DOIaV6vRVgdEMOxZ6uhR9WmJdLp6NInVyHeiFHPwOyG2Hr3Nk6FqEGYA4yGTsn52Pm8Zz0oPxozRBxyxRoT5m51YCOoVlepfjPZI0L5s8Oe7Lo3BBBKhDX3hgM3xosios4xf7HD5kNX_4O0fVGSbvtuDzcqo0pvHhd44SGp0WFTsZNMO7tP3NSVeyqHSNxuGJ98p3Aw2f7rjKyb9woVfQW5jxrs';
+
+  static const String mexican =
+      'https://lh3.googleusercontent.com/aida-public/AB6AXuDoH9PJIo2LvvdD3-l8bAnKlvScwCJS1yxi-6BCE_SwRjnHjIsLD8CJQ6Rt7IZt-Pf-abdDuvGDFteGAB36ZBdy9bSHx2ySN4NfRpR8NLimaEww9YZVMFtqeS86-cPFEvIfKiVAsUOOb9F2wGnIWsOYJZqfNO1St80t-_1aOvVUUmWqz8l3cLlYAhbLwv-o9e1FKZ61Oa0gtVwu_LNtM-KPT1TkxZVepzmUlmNmePLR4VEMNZ7MojVP';
+
+  static const String mediterranean =
+      'https://lh3.googleusercontent.com/aida-public/AB6AXuBYpOAMpQkph-dkCXdFVtLoY4oDlcJmG4vcqp8dYdmwtDLUUINXPsKdVeX1frdItjU_e8fMgR-JDT96jrFy0pVnaGv_yTaZY6EyuAbXKETUFp2VNGg4vboAuW7QosVeSfUnpYJ3oUxvemu-Y5DqmcXeN2dwfvbJaHRqJsbYmOyqoxZwfVRgD4SLyfp1LoRp4K_V5RXQJcwqFxPXMmClu6gW4vnTPYYUi4h9K3J0Sxlb0OdX0ikfrr4e';
+
+}

@@ -1,0 +1,20 @@
+.DS_Store
+
+# Flutter
+NutriCook/.dart_tool/
+NutriCook/build/
+NutriCook/.flutter-plugins-dependencies
+NutriCook/ios/Pods/
+NutriCook/ios/.symlinks/
+NutriCook/ios/Flutter/Flutter.framework
+NutriCook/ios/Flutter/Flutter.podspec
+NutriCook/ios/Flutter/ephemeral/
+NutriCook/android/.gradle/
+NutriCook/android/local.properties
+
+# Backend
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.env
+backend/media/

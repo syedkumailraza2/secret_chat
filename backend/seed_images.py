@@ -1,0 +1,33 @@
+"""Photography for the seeded recipes, taken from the HTML designs."""
+
+CHICKPEA_BOWL = (
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuAdc9clF2qJM41CY33rL9ZzSG1z17dt1_kAttm_JpmBeQKxD-S2B8b3ByBsz9_ZK-e7fX9AJcAfykGg2_WAgGTXGD8woAMOqm_cQv0NAFnA8YtOyj3zD2L6EG88NnXeCSZIPbsFUb6OhzTvFujcjtAjB6SRr5yNdhdlUCXYha66lCE35LbiG5ZVOGYYkUEt_1SLjPXvdKCIhQd7EF4LPYbmbhHb1N4vggF3U3_TZRciSGU3tO3Z_N0X"
+)
+
+PANEER_BOWL = (
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuDOzMn1XWgxIv9KHY0UBFtRnEgiCooXZvkjZzf9nHDu4g2liPK-kqWUHfiqUR936eMLq19OqO5T9xtsx0Am0jjuGspUEeBsAalRK09ooAQ6Mbf9Ngi8X1EMWl-0tpkylM85vuKISKkqZhKUKkARAhoOlPr0AyZgNqfKeSD-8Xtp0odEoLB2Kn5AiW5WzE_-C_KZNoYf-y9JUj5ZLfgHrgCXKlnmiEyYeHfbTQ4VVZnsb5NYtx49npH-"
+)
+
+AVOCADO_TOAST = (
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuAbQXk64w7nN64eAmZgkounXerXdRsUMNdewxfBCkG3Qhh1UPrF_jJDoqNP3Trcmsxw-dpRa4mDN8agDMOA9zKcl3tHhgy1mYhz9Y12ECPdx0lr4fybccuGl35NVCA32tmBfdPgOR9QLjrERDQgRHd_HAjEBwvKqdJmjNjZ7Rcn_LsqnPCYhz8vCLuswjiywBvihJum6GpifkXkeIEwpzwF7H5X26cl1zPlGROfR8V2Dxyb6KAENNLR"
+)
+
+QUINOA_BOWL = (
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuBLJzcOBsfFZzqxCnO5FCpLYdI5_liI6eT30HhTstZryBASEuFZQwNk4il27r5iEDMdctBTc62UluiP1n8wjeROU9No-RYsIMMQCkoVwSUwwCOA3sa_lM-yZLwMHOzE0x-U4zQm9i7Lqq3pAAHQj_UAQil_LJYhCBGB0okBsGeFhmSKiMJGbgoizAFCLCIYGsP703y6jh1KbpB6-T61lsws_fVAUKCNsExVJFuIbcrFTqg8MZfUA-Pa"
+)
+
+MUSHROOM_RISOTTO = (
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuAcSOgN4rpom7gvlZSoOQcF4r6_sJBrSK7qUKTKc_PBAmNElmALNs2kxuNQBZ165JRU4kj2Ex75q9kHbaZ57ZE_xbXi88JS_Zlx1BDNrQEreMkM5LyWuraBKSTnWMGnSt9FHp7-KnQcSd5kdcA6XtH0TMiYZeyiH2FnND6zx21dfYeG0syRzOdepQI-u2FejpI7aUSvx5Ikgu5NPvHgRIDC19q_StuMgaielLpXcDuvD8lz791bdtng"
+)
+
+CHIA_PUDDING = (
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuCuSjyRMBCvVgemL9fMQx6cnsBhuqpbTl04QrjNMAVFlM6a0nwCayx2zaYF1Q6EV2ij_7AHUoXfBWAZX2Lv-i_Xa8-qpGMQyQCIeWwsZzdFTmkIuuiommgYtcxhbEbasPCU2ZnbZ0c2pGvseMhdbv9ej5e1n25X4XgY_QhJ2LS5ptqqr0p2y6dtdTQJdvV9hz-CI0RDv0YDdV6aAJYMPvwDz9Q7YWSLPMrPwAR9VtM_vbocM2jUiJYz"
+)
+
+SALMON = (
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuA8B9Aua2i3niXn0WkvNDmxqT6IOhLc9yTSHIygaZ7n_oz8U_uKCVPUbzVbdtiptLWsMXBGbs6ka76at3jy1svG9a9Bmn-D-6a5koV9RCWyZCfZ7HIGqRB4j5_3sHCyKkLUXPVuReLGLawPQxLwsGACSFZq7afD04aZouFigEj_bTHC0ueVCBuO5ct8-SI38I4TTn9AMKAq9ZqBvv72a3byrSxf8BlsXbTTGH1uC1PmBuRpZdp7HCjF"
+)
+
+TOMATO_SOUP = (
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuBcOMD64cfpniSOhOgDZWtsKJO5qXbAsbceO6NasqEbjEz77qOONdSm0JrT8E1tdukIkznqrMTyR_vuexHjt7pPhtQLHEvGNIt0gRTXFC7-b5t6yBGV7b1X5QGXv4P5xEhlJj3t96T5Wx5e7Owuachpi-J-KmEQYIRbQ_Y6Z0cEB-RTFroEemqMQn2rD-JbLg2EsDK4Ox8MbTPjYqkxFbWprOZNF7Tp1oFgEnJ6Ocf4YDMt4eU5a6AV"
+)
