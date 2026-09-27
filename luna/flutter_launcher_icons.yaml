@@ -1,0 +1,10 @@
+flutter_launcher_icons:
+  image_path: "assets/icon/app_icon.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  # Adaptive icon: flat burgundy behind the lotus, inset so circular masks
+  # don't clip the outer petals.
+  adaptive_icon_background: "#4B1223"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+  adaptive_icon_foreground_inset: 16

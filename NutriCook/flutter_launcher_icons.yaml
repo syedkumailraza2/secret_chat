@@ -1,0 +1,14 @@
+flutter_launcher_icons:
+  image_path: "assets/icon/app_icon.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  # Adaptive icon: flat green behind the leaf, inset for circular masks.
+  adaptive_icon_background: "#216240"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+  adaptive_icon_foreground_inset: 16
+  web:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
+    background_color: "#216240"
+    theme_color: "#256441"
